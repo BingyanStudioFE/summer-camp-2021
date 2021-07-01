@@ -1,12 +1,14 @@
 # 2021 冰岩作坊前端组夏令营
 
+## 前言
+
 欢迎你来到冰岩作坊 2021 前端组暑期夏令营！
 
 在开始之前，你需要知道的是：
 
 > 在成为前/后端工程师或测试工程师或全栈工程师之前，你首先得是个工程师！
 
-**仓库结构与规范：**
+### 仓库结构与规范：
 
 初始项目架构：
 
@@ -44,13 +46,26 @@
   - `README.md`
   - `.gitignore`
 
-导师分配
+### 导师分配
 
 | 学员   | 导师   |
 | ------ | ------ |
 | 熊逸朗 | 李英豪 |
 
-接下来让我们开始紧张刺激的冰岩 `5` 层关卡挑战吧 ~~ Link Start ！！
+### 注意事项
+
+1. 以下任务请尽量依次完成, 每完成一项后**向导师报告进度**, 并由导师检查完成情况.
+2. 学习任务**请写下学习笔记**, 并将笔记保存在`Notes`文件夹中, 实战任务请在`Tasks`
+   目录下创建对应文件夹并**将代码上传到其中**. *实战任务开头会带星标*
+3. 任务中遇到困难**请尽可能自己解决**, 如思考并尝试后仍后无法解决可向导师寻求帮助
+4. 每天都将当日完成情况做一个小总结, 记录在`README.md`中, 在 11 点前 push 到 github
+   (关于此条, 若一开始看不懂可在完成**代码托管 / 版本控制**任务后再执行)
+
+---
+
+**接下来让我们开始紧张刺激的冰岩 `5` 层关卡挑战吧 ~~ Link Start ！！**
+
+---
 
 ## Re：从O开始的新手村
 
@@ -75,12 +90,6 @@
 2. 了解并掌握 `git` 基本操作
 3. Fork 并 Clone `summer-camp-2021`夏令营仓库
 4. 在`你的文件夹/Tasks` 添加 `hello.md` 文件并写入 `Hello bingyan!` （1级标题）
-
-#### 任务位置
-
-```
-你的文件夹/Tasks
-```
 
 **注：这步涉及到后面内容的代码控制，请一定完成好哦！以下所有涉及此仓库的代码记得当日 push**
 
@@ -109,11 +118,11 @@
 
 [中文文档](https://markdown-zh.readthedocs.io/en/latest/)
 
-### 正确获取知识的姿势
+### 正确获取知识的姿势(不强求)
 
 > 你看百度的工程师都用在用 Google，所以要什么百度自行车！
 
-推荐时长：`1` 天
+推荐时长：`0.5` 天
 
 #### 任务目标
 
@@ -145,7 +154,7 @@
 #### 任务目标
 
 1. 任选其一：（千万不要浪费太多时间在这个地方，只需安装一个即可）
-   - 世界级宝具：Visual Studio Code
+   - 世界级宝具：**Visual Studio Code**
    - 高冷级宝具：Atom
    - IDE 级宝具：WebStorm
    - 王の宝具：Vim | Emacs
@@ -155,13 +164,14 @@
 
 #### 参考资料
 
-[Visual Studio Code](https://code.visualstudio.com/)
+[Visual Studio Code](https://code.visualstudio.com/)  
+[vscode 插件推荐](https://www.php.cn/tool/vscode/475531.html)
 
 [Atom](https://atom.io/)
 
 [WebStorm 学生授权](https://sales.jetbrains.com/hc/zh-cn/articles/207154369-学生授权申请方式)
 
-### HTML 与 CSS
+### * HTML 与 CSS
 
 > 标记的力量
 
@@ -169,21 +179,13 @@
 
 #### 任务目标
 
-1. 在 `你的文件夹/Tasks` 下面分别创建目录 `html` 和 `css`
-2. 分别使用 Google 搜索 html 和 css 教程
-3. 认真阅读并掌握 html 和 css 的用法
-4. **掌握理解 `flex` 布局**
-5. 动手实践，写小demo存在 `你的文件夹/Tasks/HTML&CSS`中
-6. 产生相应的笔记写入`你的文件夹/Notes/HTML&CSS.md` 中
+1. 分别使用 Google 搜索 html 和 css 教程
+2. 认真阅读并掌握 html 和 css 的用法
+3. **掌握理解 `flex` 布局**
+4. 动手实践，写小demo
+5. 产生相应的笔记
 
 关键词：W3C、HTML5、CSS3
-
-#### 任务位置
-
-```
-你的文件夹/Notes
-你的文件夹/HTML&CSS
-```
 
 #### 参考资料
 
@@ -193,7 +195,7 @@
 
 [MDN 文档](https://developer.mozilla.org/zh-CN/docs/Web)
 
-## ①层：JavaScript 的天下
+## * ①层：JavaScript 的天下
 
 ### JavaScript 基础
 
@@ -213,18 +215,11 @@
    - JS 异步特性
    - ES6 相关内容
 
-2. 同时产生学习笔记写入 `你的文件夹/Notes/JavaScript.md` 中
+2. 写下学习笔记
 
-3. 测试demo写入`你的文件夹/Tasks/js`
+3. 写下测试demo
 
 关键词：Ajax、Asynchronous、DOM、ES6
-
-#### 任务位置
-
-```
-你的文件夹/Notes
-你的文件夹/js
-```
 
 #### 参考资料
 
@@ -240,7 +235,7 @@
 - [YDKJS](https://github.com/getify/You-Dont-Know-JS)
 - [Eloquent JavaScript](http://eloquentjavascript.net/)
 
-### Node.js
+### * Node.js
 
 > 正义的伙伴！
 
@@ -250,17 +245,9 @@
 
 1. 了解 Node 的诞生和发展
 2. 安装 Node 最新 **LTS** 版，并尝试阅读 Node 文档
-3. 笔记记入`你的文件夹/Notes/Node.md`
-4. 在 `你的文件夹/Tasks/node` 目录下下创建`task1`文件夹
-5. 在 `task1` 文件夹里使用 `npm` 命令，初始化 `package.json` 并安装 `colors` 包
-6. 新建 `guide.js` 文件，使用 `nodejs` 运行，并尝试用代码在其中输出彩虹色的 `Geek is the new sexy!`
-
-#### 任务位置
-
-```
-你的文件夹/Tasks/node
-你的文件夹/Notes/Node.md
-```
+3. 写下笔记
+4. 使用 `npm` 命令，初始化 `package.json` 并安装 `colors` 包
+5. 新建 `guide.js` 文件，使用 `nodejs` 运行，并尝试用代码在其中输出彩虹色的 `Geek is the new sexy!`
 
 #### 参考资料
 
@@ -274,33 +261,21 @@
 
 [color 库](https://www.npmjs.com/package/colors)
 
-### BOSS 挑战
+### * BOSS 挑战
 
 推荐时长：`1`天
 
 使用 `nodejs` 构建命令行（问答形式）成员管理系统（静态 `Json` 数据类型，具体需求待定）
 
-#### 任务位置
-
-```
-你的文件夹/Tasks/node/task2
-```
-
 ## ②层：小试牛刀
 
-> 初次接触项目
+> 初次接触完整项目
 
 推荐时长：`1`天（flexible）
 
 #### 任务目标
 
 对产品组任务的idea进行分解，分解成多个功能/页面，使用原生 `js` + `node` 完成某些功能点或某些页面
-
-#### 任务位置
-
-```
-你的文件夹/Tasks/partOfProducts
-```
 
 任务时长视产品组任务量、任务需求、任务难度而定
 
@@ -317,10 +292,9 @@
 #### 任务目标
 
 1. 阅读完文档并掌握 vue
-2. 在 `你的文件夹` 创建 `vue-todo-mvc` 文件夹
-3. 产生相应的学习笔记 `Vue.md`
-4. 使用 [新手的姿势](https://cn.vuejs.org/v2/guide/index.html#%E5%A3%B0%E6%98%8E%E5%BC%8F%E6%B8%B2%E6%9F%93) 构建应用
-5. 纯`vue`实现完成后可尝试第三方库扩展应用
+2. 写下相应的学习笔记
+3. 使用 [新手的姿势](https://cn.vuejs.org/v2/guide/index.html#%E5%A3%B0%E6%98%8E%E5%BC%8F%E6%B8%B2%E6%9F%93) 构建应用
+4. 纯`vue`实现完成后可尝试第三方库扩展应用
    - `vue-router`
    - `vuex`
    - ....
@@ -333,7 +307,7 @@
 
 [官方文档](https://www.vue3js.cn/docs/zh/)
 
-[TODOMVC](http://todomvc.com/examples/vanilla-es6/)
+[TODOMVC](http://todomvc.com/examples/vue/)
 
 ### React
 
@@ -344,8 +318,7 @@
 #### 任务目标
 
 1. 阅读完文档并掌握 React
-2. 在 `你的文件夹/Tasks` 创建 `react-todo-mvc` 文件夹
-3. 产生相应的学习笔记 `React.md`
+3. 写下相应的学习笔记
 4. 使用 [新手的姿势](https://reactjs.org/docs/getting-started.html#try-react) 下的 `Online Playgrounds` 的方法构建应用（推荐使用下载文件到本地再编码）
 5. 纯`react`实现完成后可尝试第三方库扩展应用
    - `react-router`
@@ -360,19 +333,13 @@
 
 [官方文档](https://reactjs.org/)
 
-[TODOMVC](http://todomvc.com/examples/vanilla-es6/)
+[TODOMVC](https://todomvc.com/examples/react/)
 
-### BOSS 挑战
+### * BOSS 挑战
 
 使用`React`/`Vue` 完成产品组产品功能需求，同**小试牛刀**，区别：使用框架
 
 推荐时长：`3`天
-
-#### 任务位置
-
-```
-你的文件夹/Tasks/partOfProducts
-```
 
 任务时长视产品组任务量、任务需求、任务难度而定
 
@@ -384,20 +351,14 @@
 
 #### 任务目标
 
-1. 使用 `nodejs` 下的 `express` 或 `koa` 完成
+1. 学习使用 `nodejs` 下的 `koa` 或 `express`
 2. 使用 `nodejs` 能与数据库连接/交互（推荐使用MongoDB）
 3. 使用数据库，更新迭代已完成的命令行成员管理系统
 4. 为管理系统搭建简单界面（要求：界面美观，尽量适配）
 
 关键词：服务器编程、非关系型数据库、关系型数据库
 
-#### 任务位置
-
-```
-你的文件夹/Tasks/node/task2Plus
-```
-
-### BOSS 挑战
+### * BOSS 挑战
 
 推荐时长：`1`天
 
@@ -419,7 +380,7 @@
 3. 学会与后台沟通（没有后台自己顶替：）
 4. 学会测试
 
-### BOSS 挑战
+### * BOSS 挑战
 
 **Show me your project**
 
@@ -437,12 +398,19 @@
 
 或者 **继续补充前端的相关知识**
 
-1. **W3C 标准规范**
-2. **ECMAScript 标准规范**
-3. **前端工程化**
-4. **深入研究框架底层**
-5. **深入研究 JavaScript 底层相关知识**
+1. **正则表达式**
+2. **W3C 标准规范**
+3. **ECMAScript 标准规范**
+4. **前端工程化**
+5. **深入研究框架底层**
+6. **深入研究 JavaScript 底层相关知识**
+7. **构建跨端应用**
 
-附录
+## ref
 
-[程序组仓库地址](https://github.com/zcysky/bingyan-summer-camp-2021)
+- [developer roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master/translations/chinese)
+
+## 附录
+
+- [程序组仓库地址](https://github.com/zcysky/bingyan-summer-camp-2021)
+- [前端组工具库](https://github.com/BingyanStudioFE/tools)
